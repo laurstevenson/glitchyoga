@@ -8,6 +8,8 @@ body {
 h1 {
   font-family: Tahoma, Geneva, sans-serif;
   color: #000;
+  margin-top: 1em;
+  margin-bottom: 1em;
   text-align: center;
 }
 
@@ -18,13 +20,18 @@ h2 {
 }
 
 img {
+  display: block;
   width:540px;
   height:auto;
   margin-top: 1em;
   margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color: #f0f0f5;
   display: block;
 }
 
@@ -36,7 +43,7 @@ p {
 
 p.intro {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 p.benefits {
@@ -48,7 +55,7 @@ p.benefits {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
   padding: 5px;
 }
 
